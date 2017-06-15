@@ -1,0 +1,32 @@
+body {
+  margin-top: 200px;  
+  text-align: center;
+  font-family: monospace;
+}
+
+img {
+  position: relative;
+  right: 50px;
+  margin-top: 25px;  
+  width: 200px;
+  border-radius: 50%;
+  animation: pug 3500ms infinite linear;
+  -webkit-animation: pug 3500ms infinite linear;
+  -moz-animation: pug 3500ms infinite linear;
+  transform-origin: right;
+  -webkit-transform-origin: right;
+  -moz-transform-origin: right;
+}
+
+@-moz-keyframes pug {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes pug {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes pug {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
