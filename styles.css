@@ -6,16 +6,16 @@ body {
 
 img {
   position: relative;
-  right: 50px;
-  margin-top: 25px;  
+  left: 20%;
+  top: -10px;
   width: 200px;
   border-radius: 50%;
   animation: pug 3500ms infinite linear;
   -webkit-animation: pug 3500ms infinite linear;
   -moz-animation: pug 3500ms infinite linear;
-  transform-origin: right;
-  -webkit-transform-origin: right;
-  -moz-transform-origin: right;
+  transform-origin: 15px center;
+  -webkit-transform-origin: 15px center;
+  -moz-transform-origin: 15px center;
 }
 
 @-moz-keyframes pug {
